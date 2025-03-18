@@ -68,11 +68,42 @@ For text-based data, manually insert records using SQL commands inside `films.tx
 uvicorn main:app --reload
 ```
 
-## 💼 API Endpoints
+## 🌝 API Endpoints
 | Method | Endpoint               | Description |
 |--------|------------------------|-------------|
 | GET    | `/api/films/`          | Get all films |
 | GET    | `/api/films/{film_name}`   | Get all people from a specific film |
+
+#### **Available Films for API Search**
+Use `/api/films/[movie_name]` with one of the following movie names:
+- Toy Story
+- A Bug's Life
+- Toy Story 2
+- Monsters, Inc.
+- Finding Nemo
+- The Incredibles
+- Cars
+- Ratatouille
+- WALL-E
+- Up
+- Toy Story 3
+- Cars 2
+- Brave
+- Monsters University
+- Inside Out
+- The Good Dinosaur
+- Finding Dory
+- Cars 3
+- Coco
+- Incredibles 2
+- Toy Story 4
+- Onward
+- Soul
+- Luca
+- Turning Red
+- Lightyear
+- Elemental
+- Inside Out 2
 
 ## 🛠 Tech Stack
 - **FastAPI** - Web framework

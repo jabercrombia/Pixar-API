@@ -3,6 +3,8 @@ import os
 import logging
 from dotenv import load_dotenv
 
+import psycopg2
+
 # Load environment variables
 load_dotenv()
 
