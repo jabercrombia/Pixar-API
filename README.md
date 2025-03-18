@@ -75,7 +75,11 @@ uvicorn main:app --reload
 | GET    | `/api/films/{film_name}`   | Get all people from a specific film |
 
 #### **Available Films for API Search**
-Use `/api/films/[movie_name]` with one of the following movie names:
+Example api
+```bash
+https://pixar-api.vercel.app/api/films/Coco
+```
+Use `/api/films/` with one of the following movie names:
 - Toy Story
 - A Bug's Life
 - Toy Story 2
@@ -104,6 +108,8 @@ Use `/api/films/[movie_name]` with one of the following movie names:
 - Lightyear
 - Elemental
 - Inside Out 2
+
+
 
 ## 🛠 Tech Stack
 - **FastAPI** - Web framework
