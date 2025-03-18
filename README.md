@@ -2,7 +2,7 @@
 
 A FastAPI-based REST API to manage Pixar films and their associated people (directors, actors, etc.).
 
-## 📌 Project Structure
+## Project Structure
 ```
 Pixar-API/
 │── main.py                 # Main entry point
