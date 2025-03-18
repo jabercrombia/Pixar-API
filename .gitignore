@@ -35,3 +35,5 @@ build/
 *.pem
 config.json
 credentials.json
+.vercel
+vercel.json
