@@ -1,0 +1,36 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment (venv)
+venv/
+.env/
+.venv/
+Pipfile
+Pipfile.lock
+
+# Dependency files
+poetry.lock
+*.egg-info/
+*.egg
+dist/
+build/
+
+# 💻 IDE & Editor files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Logs & temp files
+*.log
+*.tmp
+.DS_Store
+*.swp
+*.swo
+
+# Secrets & environment variables
+.env
+*.pem
+config.json
+credentials.json
