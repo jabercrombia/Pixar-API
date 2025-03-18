@@ -5,21 +5,21 @@ A FastAPI-based REST API to manage Pixar films and their associated people (dire
 ## 📌 Project Structure
 ```
 Pixar-API/
-│── main.py               # Main entry point
-│── db.py                 # Database connection
-│── api/                  # API directory
-│   │── films.py          # Films route
-│   │── movies.py         # Movies route
-│── pixar-tables/         # Directory containing data files
-│   │── academy.sql       # Academy awards
-│   │── box-office.sql    # Box office data
-│   │── genres.sql        # Genre Data
-│   │── pixar-films.sql   # Pixar films
-│   │── pixar-people.sql  # People who were involved in the film
+│── main.py                 # Main entry point
+│── db.py                   # Database connection
+│── api/                    # API directory
+│   │── films.py            # Films route
+│   │── movies.py           # Movies route
+│── pixar-tables/           # Directory containing data files
+│   │── academy.sql         # Academy awards
+│   │── box-office.sql      # Box office data
+│   │── genres.sql          # Genre Data
+│   │── pixar-films.sql     # Pixar films
+│   │── pixar-people.sql    # People who were involved in the film
 │   │── public-response.sql # Movie scores
-│── requirements.txt      # Dependencies
-│── .env                  # Environment variables
-│── README.md             # Project documentation
+│── requirements.txt        # Dependencies
+│── .env                    # Environment variables
+│── README.md               # Project documentation
 ```
 
 ## 🚀 Getting Started
