@@ -1,5 +1,5 @@
 # Pixar Films API
-
+![homepage image](/static/page.png)
 A FastAPI-based REST API to manage Pixar films and their associated people (directors, actors, etc.).
 
 ## Project Structure

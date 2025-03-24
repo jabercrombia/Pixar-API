@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Pixar Movie API">
+    <meta property="og:description" content="A free API providing details on Pixar movies, characters, and more.">
+    <meta property="og:image" content="https://pixar-api.vercel.app/page.png">
+    <meta property="og:url" content="https://pixar-api.vercel.app">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card (for Twitter previews) -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Pixar Movie API">
+    <meta name="twitter:description" content="A free API providing details on Pixar movies, characters, and more.">
+    <meta name="twitter:image" content="https://pixar-api.vercel.app/page.png">
+    
+    <title>FastAPI Landing Page</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="/static/styles.css">
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q5S0X17DC6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-Q5S0X17DC6');
+    </script>
+</head>
+    <body>
+        <div class="flex items-center justify-center h-screen">
+            <div class="container mx-auto text-center">
+                <h1>Pixar Movie API</h1>
+                <p>This API provides information about Pixar movies.</p>
+            
+                <div class="endpoint">
+                    <h3>Get All Films</h3>
+                    <p>Retrieve a list of all Pixar films.</p>
+                    <p><span class="code">GET https://pixar-api.vercel.app/api/films/</span></p>
+                </div>
+            
+                <div class="endpoint">
+                    <h3>Get Film by ID</h3>
+                    <p>Retrieve details of a specific film using its ID.</p>
+                    <p><span class="code">GET https://pixar-api.vercel.app/api/films/{move name}</span></p>
+                    <p><strong>Example:</strong> <span class="code">https://pixar-api.vercel.app/api/films/Cars</span></p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
